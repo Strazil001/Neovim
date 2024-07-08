@@ -10,6 +10,7 @@ return {
 				typescript = { 'prettier' },
 				javascriptreact = { 'prettier' },
 				typescriptreact = { 'prettier' },
+				yaml = { 'prettier' },
 				html = { 'prettier' },
 				json = { 'prettier' },
 				css = { 'prettier' },
