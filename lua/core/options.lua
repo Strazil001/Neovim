@@ -1,12 +1,10 @@
 local g = vim.g     -- Global variables
 local opt = vim.opt -- Set options (global/buffer/windows-scoped)
 
-g.mapleader = " "
-
-g.loaded_netrw = 1
-g.loaded_netrwPlugin = 1
-
-g.netrw_liststyle = 3
+-- g.loaded_netrw = 1
+-- g.loaded_netrwPlugin = 1
+--
+-- g.netrw_liststyle = 3
 
 opt.cursorline = true
 --vim.opt.colorcolumn = "80"

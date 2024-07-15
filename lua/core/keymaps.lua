@@ -25,7 +25,7 @@ vim.keymap.set("n", "<leader>sh", ":split<CR>")
 vim.keymap.set("n", "<leader>sc", ":wq<CR>")
 
 -- Netrw
-vim.keymap.set("n", "<leader>pv", ":Explore<CR>")
+-- vim.keymap.set("n", "<leader>pv", ":Explore<CR>")
 
 -- Inline hints
 vim.keymap.set("n", "<leader>h", function()
