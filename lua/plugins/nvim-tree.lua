@@ -3,7 +3,6 @@ return {
 	dependencies = "kyazdani42/nvim-web-devicons",
 	config = function()
 		local nvimtree = require("nvim-tree")
-
 		nvimtree.setup({
 			view = {
 				width = 30,
@@ -14,6 +13,7 @@ return {
 				indent_markers = {
 					enable = false,
 				},
+
 				icons = {
 					web_devicons = {
 						file = {
@@ -215,4 +215,5 @@ return {
 		keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>")
 		keymap.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>")
 	end,
+
 }
